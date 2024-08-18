@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/STAR-KING0/Queen_Alya  /root/Queen_Alya
-WORKDIR /root/Queen_Alya/
+RUN git clone https://github.com/STAR-KING0/CheemsBot-MD11  /root/CheemsBot-MD11
+WORKDIR /root/CheemsBot-MD11/
 
 
 COPY package.json .
